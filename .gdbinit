@@ -15,4 +15,10 @@ set print demangle on
 set print object on
 set print static-members on
 set print vtbl on
+define bsave
+    save breakpoints ~/.breakpoints
+end
 
+define brestore
+   source ~/.breakpoints
+end

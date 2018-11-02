@@ -22,3 +22,5 @@ end
 define brestore
    source ~/.breakpoints
 end
+set set breakpoint pending on
+

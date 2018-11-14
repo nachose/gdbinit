@@ -23,4 +23,5 @@ define brestore
    source ~/.breakpoints
 end
 set breakpoint pending on
+set confirm off
 

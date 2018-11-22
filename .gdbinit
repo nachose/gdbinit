@@ -24,4 +24,5 @@ define brestore
 end
 set breakpoint pending on
 set confirm off
+set print thread-events
 
